@@ -22,7 +22,8 @@ end
 
 def printer(outputs)
   arr_badges = batch_badge_creator(array)
-  arr_rooms = assign
+  arr_rooms = assign_rooms(speakers)
+  
 end 
 
 
