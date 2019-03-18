@@ -12,8 +12,9 @@ def batch_badge_creator(array)
   return new_badges
 end 
 
-def assign_room(attandees)
-  
+def assign_room(speakers)
+  room = 0 
+  speakers.collect 
 end
 
 
