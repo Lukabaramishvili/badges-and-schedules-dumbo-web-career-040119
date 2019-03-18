@@ -26,7 +26,9 @@ def printer(outputs)
   arr_badges.each do |string|
     puts string
   end
-  arr_rooms.each do |r|
+  arr_rooms.each do |string|
+    puts string
+  end
 end 
 
 
