@@ -11,3 +11,5 @@ def batch_badge_creator(array)
   end
   return new_badges
 end 
+
+def assign_room()
