@@ -21,8 +21,8 @@ def assign_rooms(speakers)
 end 
 
 def printer(outputs)
-  arr_badges = batch_badge_creator(array)
-  arr_rooms = assign_rooms(speakers)
+  arr_badges = batch_badge_creator(outputs)
+  arr_rooms = assign_rooms(outputs)
   arr_badges.each do |string|
     puts string
   end
