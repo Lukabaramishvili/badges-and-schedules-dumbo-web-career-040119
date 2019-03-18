@@ -19,3 +19,8 @@ def assign_room(speakers)
     room += 1
   end
 end
+
+
+
+
+
