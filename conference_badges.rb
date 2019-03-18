@@ -14,4 +14,5 @@ end
 
 def assign_room(speakers)
   room = 1 
-  speakers.each do ||
+  speakers.each do |name|
+    
