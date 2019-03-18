@@ -23,7 +23,8 @@ end
 def printer(outputs)
   arr_badges = batch_badge_creator(array)
   arr_rooms = assign_rooms(speakers)
-  
+  arr_badges.each do |string|
+    puts
 end 
 
 
