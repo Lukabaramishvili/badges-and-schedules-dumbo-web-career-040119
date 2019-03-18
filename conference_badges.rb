@@ -14,7 +14,9 @@ end
 
 def assign_room(speakers)
   room = 0 
-  speakers.collect 
+  speakers.collect do |name|
+    room += 1 
+    
 end
 
 
