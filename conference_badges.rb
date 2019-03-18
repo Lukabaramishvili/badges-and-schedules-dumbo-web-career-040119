@@ -16,5 +16,6 @@ def assign_room(speakers)
   room = 1 
   speakers.each do |name|
     puts "Hello, #{name}! You'll be assigned to room #{room}!"
+    room += 1
   end
 end
